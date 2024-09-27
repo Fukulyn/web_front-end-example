@@ -18,7 +18,7 @@ body,html{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(./image.png);
+    background-image: url(./1920x1080-aesthetic.jpg);
 }
 
 #app #container{
@@ -27,7 +27,7 @@ body,html{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
     background-color: #fcfcfc90;
     backdrop-filter: blur(5px);
     padding: 2% 3%;
@@ -43,7 +43,14 @@ body,html{
 #app #container #user{
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 3.5rem;
+}
+#app #container #user #userInfo #nameAndTitle{
+    line-height: 2.5rem;
+}
+#app #container #user #aboutUser{
+    font-size: 1rem;
+    line-height: 2.5rem;
 }
 
 #app #container #avatar{
@@ -51,15 +58,15 @@ body,html{
 }
 
 #app #container #avatar img{
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 250px;
     border-radius: 100%;
 }
 
 #app #container #userInfo{
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: 1rem;
 }
 
 #app #container #Education{
@@ -68,7 +75,7 @@ body,html{
 
 #app #container #about{
     display: flex;
-    gap: 2rem;
+    gap: .5rem;
 }
 
 #app #container #about #contact{
@@ -87,7 +94,7 @@ body,html{
 #app #container #about #experiences{
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: .9rem;
 }
 
 #app #container #about .experience .title{
